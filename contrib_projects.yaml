@@ -16,7 +16,7 @@ projects:
          cloudevents,telepresenceio,helm,kubernetes-csi,goharbor,tikv,etcd-io,\
          OpenObservability,cortexproject,buildpack,falcosecurity,dragonflyoss,\
          virtual-kubelet,kubeedge,brigadecore,cri-o,networkservicemesh,openebs,\
-         open-telemetry,thanos-io,fluxcd,in-toto,strimzi,kubevirt,\
+         open-telemetry,thanos-io,fluxcd,in-toto,strimzi,kubevirt,longhorn,\
          OpenStack-mobile,openstack,openstack-ansible,kata-containers,\
          openstack-charmers,openstack-dev,openstacknetsdk,openstack-hyper-v,\
          openstack-infra,openstack-kr,openstack-packages,openstack-snaps"
