@@ -1,0 +1,1 @@
+5 * * * * PATH=$PATH:/home/justa/dev/go/bin PG_PASS=... contrib.sh 2>> /tmp/contrib.err 1>> /tmp/contrib.log

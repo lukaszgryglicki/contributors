@@ -1,0 +1,349 @@
+{
+  "annotations": {
+    "list": [
+      {
+        "builtIn": 1,
+        "datasource": "-- Grafana --",
+        "enable": true,
+        "hide": true,
+        "iconColor": "rgba(0, 211, 255, 1)",
+        "name": "Annotations \u0026 Alerts",
+        "type": "dashboard"
+      }
+    ]
+  },
+  "editable": true,
+  "gnetId": null,
+  "graphTooltip": 0,
+  "id": 5,
+  "iteration": 1527085305762,
+  "links": [],
+  "panels": [
+    {
+      "aliasColors": {},
+      "bars": false,
+      "dashLength": 10,
+      "dashes": false,
+      "datasource": "psql",
+      "decimals": 3,
+      "description": "[[period]] contributions and cumulative",
+      "fill": 0,
+      "gridPos": {
+        "h": 22,
+        "w": 24,
+        "x": 0,
+        "y": 0
+      },
+      "id": 2,
+      "legend": {
+        "alignAsTable": true,
+        "avg": true,
+        "current": true,
+        "max": true,
+        "min": true,
+        "rightSide": false,
+        "show": true,
+        "sideWidth": null,
+        "sort": null,
+        "sortDesc": null,
+        "total": false,
+        "values": true
+      },
+      "lines": true,
+      "linewidth": 1,
+      "links": [],
+      "nullPointMode": "null as zero",
+      "percentage": false,
+      "pointradius": 5,
+      "points": false,
+      "renderer": "flot",
+      "seriesOverrides": [
+        {
+          "alias": "CNCF Contributions",
+          "fill": 2,
+          "linewidth": 0,
+          "steppedLine": true,
+          "yaxis": 2
+        },
+        {
+          "alias": "OpenStack Contributions",
+          "fill": 2,
+          "linewidth": 0,
+          "steppedLine": true,
+          "yaxis": 2
+        }
+      ],
+      "spaceLength": 10,
+      "stack": false,
+      "steppedLine": false,
+      "targets": [
+        {
+          "alias": "",
+          "dsType": "influxdb",
+          "format": "time_series",
+          "groupBy": [],
+          "measurement": "",
+          "orderByTime": "ASC",
+          "policy": "default",
+          "query": "SELECT \"value\" FROM \"contrib_cumulative_cncf_h\" WHERE $timeFilter",
+          "rawQuery": true,
+          "rawSql": "select\n  time,\n  value as \"All CNCF Contributions\"\nfrom\n  scontrib_cumulativecncf\nwhere\n  $__timeFilter(time)\n  and period = 'h'\norder by\n  time",
+          "refId": "A",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "value"
+                ],
+                "type": "field"
+              }
+            ]
+          ],
+          "tags": []
+        },
+        {
+          "alias": "",
+          "dsType": "influxdb",
+          "format": "time_series",
+          "groupBy": [],
+          "measurement": "",
+          "orderByTime": "ASC",
+          "policy": "default",
+          "query": "SELECT \"value\" FROM \"contrib_cumulative_openstack_h\" WHERE $timeFilter",
+          "rawQuery": true,
+          "rawSql": "select\n  time,\n  value as \"All OpenStack Contributions\"\nfrom\n  scontrib_cumulativeopenstack\nwhere\n  $__timeFilter(time)\n  and period = 'h'\norder by\n  time",
+          "refId": "B",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "value"
+                ],
+                "type": "field"
+              }
+            ]
+          ],
+          "tags": []
+        },
+        {
+          "alias": "",
+          "dsType": "influxdb",
+          "format": "time_series",
+          "groupBy": [],
+          "measurement": "",
+          "orderByTime": "ASC",
+          "policy": "default",
+          "query": "SELECT \"value\" FROM \"contrib_cncf_[[period]]\" WHERE $timeFilter",
+          "rawQuery": true,
+          "rawSql": "select\n  time,\n  value as \"CNCF Contributions\"\nfrom\n  scontribcncf\nwhere\n  $__timeFilter(time)\n  and period = '[[period]]'\norder by\n  time",
+          "refId": "C",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "value"
+                ],
+                "type": "field"
+              }
+            ]
+          ],
+          "tags": []
+        },
+        {
+          "alias": "",
+          "dsType": "influxdb",
+          "format": "time_series",
+          "groupBy": [],
+          "measurement": "",
+          "orderByTime": "ASC",
+          "policy": "default",
+          "query": "SELECT \"value\" FROM \"contrib_openstack_[[period]]\" WHERE $timeFilter",
+          "rawQuery": true,
+          "rawSql": "select\n  time,\n  value as \"OpenStack Contributions\"\nfrom\n  scontribopenstack\nwhere\n  $__timeFilter(time)\n  and period = '[[period]]'\norder by\n  time",
+          "refId": "D",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "value"
+                ],
+                "type": "field"
+              }
+            ]
+          ],
+          "tags": []
+        }
+      ],
+      "thresholds": [],
+      "timeFrom": null,
+      "timeShift": null,
+      "title": "Contributions CNCF vs OpenStack",
+      "tooltip": {
+        "shared": true,
+        "sort": 2,
+        "value_type": "individual"
+      },
+      "transparent": true,
+      "type": "graph",
+      "xaxis": {
+        "buckets": null,
+        "mode": "time",
+        "name": null,
+        "show": true,
+        "values": []
+      },
+      "yaxes": [
+        {
+          "decimals": 3,
+          "format": "short",
+          "label": "Contributions cumulative",
+          "logBase": 1,
+          "max": null,
+          "min": "0",
+          "show": true
+        },
+        {
+          "decimals": 3,
+          "format": "short",
+          "label": "Contributions in periods",
+          "logBase": 1,
+          "max": null,
+          "min": "0",
+          "show": true
+        }
+      ],
+      "yaxis": {
+        "align": false,
+        "alignLevel": null
+      }
+    }
+  ],
+  "refresh": false,
+  "schemaVersion": 16,
+  "style": "dark",
+  "tags": [
+    "dashboard",
+    "cncf_vs_openstack"
+  ],
+  "templating": {
+    "list": [
+      {
+        "allValue": null,
+        "current": {
+          "text": "CNCF vs OpenStack",
+          "value": "CNCF vs OpenStack"
+        },
+        "datasource": "psql",
+        "hide": 2,
+        "includeAll": false,
+        "label": null,
+        "multi": false,
+        "name": "full_name",
+        "options": [],
+        "query": "select value_s from gha_vars where name = 'full_name'",
+        "refresh": 1,
+        "regex": "",
+        "sort": 0,
+        "tagValuesQuery": "",
+        "tags": [],
+        "tagsQuery": "",
+        "type": "query",
+        "useTags": false
+      },
+      {
+        "allValue": null,
+        "current": {
+          "tags": [],
+          "text": "7 days MA",
+          "value": "d7"
+        },
+        "hide": 0,
+        "includeAll": false,
+        "label": "Period",
+        "multi": false,
+        "name": "period",
+        "options": [
+          {
+            "selected": false,
+            "text": "hourly",
+            "value": "h"
+          },
+          {
+            "selected": false,
+            "text": "24 hours MA",
+            "value": "h24"
+          },
+          {
+            "selected": false,
+            "text": "daily",
+            "value": "d"
+          },
+          {
+            "selected": true,
+            "text": "7 days MA",
+            "value": "d7"
+          },
+          {
+            "selected": false,
+            "text": "weekly",
+            "value": "w"
+          },
+          {
+            "selected": false,
+            "text": "monthly",
+            "value": "m"
+          },
+          {
+            "selected": false,
+            "text": "quarterly",
+            "value": "q"
+          },
+          {
+            "selected": false,
+            "text": "yearly",
+            "value": "y"
+          }
+        ],
+        "query": "h,d,w,m,q,y",
+        "type": "custom"
+      }
+    ]
+  },
+  "time": {
+    "from": "2015-01-12T11:00:00.000Z",
+    "to": "now-1h"
+  },
+  "timepicker": {
+    "refresh_intervals": [
+      "5s",
+      "10s",
+      "30s",
+      "1m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "1d"
+    ],
+    "time_options": [
+      "5m",
+      "15m",
+      "1h",
+      "6h",
+      "12h",
+      "24h",
+      "2d",
+      "7d",
+      "30d"
+    ]
+  },
+  "timezone": "",
+  "title": "Contributions",
+  "uid": "20",
+  "version": 25
+}

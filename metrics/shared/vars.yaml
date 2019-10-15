@@ -1,0 +1,8 @@
+---
+vars:
+  - name: os_hostname
+    type: s
+    command: [hostname]
+  - name: full_name
+    type: s
+    value: "CNCF vs OpenStack"
