@@ -1,17 +1,43 @@
 -- Add repository groups
 update gha_repos set repo_group = name;
-update gha_repos set alias = name;
 
-update gha_repos set repo_group = 'CNCF', alias = 'CNCF';
+update gha_repos set repo_group = 'CNCF';
 
 update
   gha_repos
 set
-  repo_group = 'OpenStack',
-  alias = 'OpenStack'
+  repo_group = 'OpenStack'
 where
   lower(org_login) like 'openstack%'
   or org_login = 'kata-containers'
+;
+
+with repo_latest as (
+  select sub.repo_id,
+    sub.repo_name
+  from (
+    select repo_id,
+      dup_repo_name as repo_name,
+      row_number() over (partition by repo_id order by created_at desc, id desc) as row_num
+    from
+      gha_events
+  ) sub
+  where
+    sub.row_num = 1
+)
+update
+  gha_repos r
+set
+  alias = (
+    select rl.repo_name
+    from
+      repo_latest rl
+    where
+      rl.repo_id = r.id
+  )
+where
+  r.name like '%_/_%'
+  and r.name not like '%/%/%'
 ;
 
 select
