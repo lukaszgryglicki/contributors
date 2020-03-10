@@ -12,7 +12,7 @@ projects:
          kubernetes-sidecars,kubernetes-tools,kubernetes-test,kubernetes-charts,\
          prometheus,opentracing,fluent,linkerd,grpc,coredns,containerd,rkt,\
          containernetworking,envoyproxy,jaegertracing,theupdateframework,\
-         rook,cncf,crosscloudci,vitessio,nats-io,open-policy-agent,spiffe,\
+         rook,cncf,crosscloudci,vitessio,nats-io,open-policy-agent,spiffe,kedacore,\
          cloudevents,telepresenceio,helm,kubernetes-csi,goharbor,tikv,etcd-io,\
          OpenObservability,cortexproject,buildpack,falcosecurity,dragonflyoss,\
          virtual-kubelet,kubeedge,brigadecore,cri-o,networkservicemesh,openebs,\
