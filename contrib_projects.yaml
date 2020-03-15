@@ -13,6 +13,8 @@ projects:
          prometheus,opentracing,fluent,linkerd,grpc,coredns,containerd,rkt,\
          containernetworking,envoyproxy,jaegertracing,theupdateframework,\
          rook,cncf,crosscloudci,vitessio,nats-io,open-policy-agent,spiffe,kedacore,\
+         servicemeshinterface,deislabs/smi-spec,deislabs/smi-sdk-go,\
+         deislabs/smi-metrics,deislabs/smi-adapter-istio,deislabs/smi-spec.io,\
          cloudevents,telepresenceio,helm,kubernetes-csi,goharbor,tikv,etcd-io,\
          OpenObservability,cortexproject,buildpack,falcosecurity,dragonflyoss,\
          virtual-kubelet,kubeedge,brigadecore,cri-o,networkservicemesh,openebs,\
