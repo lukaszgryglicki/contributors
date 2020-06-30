@@ -11,7 +11,8 @@ projects:
          kubernetes-extensions,kubernetes-federation,kubernetes-security,\
          kubernetes-sidecars,kubernetes-tools,kubernetes-test,kubernetes-charts,\
          prometheus,opentracing,fluent,linkerd,grpc,coredns,containerd,rkt,\
-         containernetworking,envoyproxy,jaegertracing,theupdateframework,volcano-sh,\
+         containernetworking,envoyproxy,jaegertracing,theupdateframework,\
+         cni-genie,keptn,kudobuilder,cloud-custodian,dexidp,litmuschaos,\
          rook,cncf,crosscloudci,vitessio,nats-io,open-policy-agent,spiffe,kedacore,\
          servicemeshinterface,deislabs/smi-spec,deislabs/smi-sdk-go,argoproj,\
          deislabs/smi-metrics,deislabs/smi-adapter-istio,deislabs/smi-spec.io,\
@@ -19,6 +20,8 @@ projects:
          OpenObservability,cortexproject,buildpack,falcosecurity,dragonflyoss,\
          virtual-kubelet,kubeedge,brigadecore,cri-o,networkservicemesh,openebs,\
          open-telemetry,thanos-io,fluxcd,in-toto,strimzi,kubevirt,longhorn,chubaofs,\
+         Kong/kuma,Kong/kuma-website,Kong/kuma-demo,Kong/kuma-gui,Kong/kumacut,\
+         volcano-sh,parallaxsecond,bfenetworks,crossplane,artifacthub,\
          OpenStack-mobile,openstack,openstack-ansible,kata-containers,\
          openstack-charmers,openstack-dev,openstacknetsdk,openstack-hyper-v,\
          openstack-infra,openstack-kr,openstack-packages,openstack-snaps"
