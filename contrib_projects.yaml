@@ -22,6 +22,7 @@ projects:
          open-telemetry,thanos-io,fluxcd,in-toto,strimzi,kubevirt,longhorn,chubaofs,\
          Kong/kuma,Kong/kuma-website,Kong/kuma-demo,Kong/kuma-gui,Kong/kumacut,\
          volcano-sh,parallaxsecond,bfenetworks,crossplane,artifacthub,\
+         projectcontour,heptio/contour,operator-framework,\
          OpenStack-mobile,openstack,openstack-ansible,kata-containers,\
          openstack-charmers,openstack-dev,openstacknetsdk,openstack-hyper-v,\
          openstack-infra,openstack-kr,openstack-packages,openstack-snaps"
