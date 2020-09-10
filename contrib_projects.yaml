@@ -28,7 +28,9 @@ projects:
          openstack-infra,openstack-kr,openstack-packages,openstack-snaps,\
          rancher/k3s,rancher/k3d,rancher/k3s-ansible,rancher/k3s-root,\
          rancher/k3s-upgrade,rancher/k3s-selinux,rancher/terraform-k3s-aws-cluster,\
-         ibuildthecloud/k3s-root,ibuildthecloud/k3s-dev,ibuildthecloud/k3d"
+         ibuildthecloud/k3s-root,ibuildthecloud/k3s-dev,ibuildthecloud/k3d,\
+         spotify/backstage,wayfair-tremor,metal3-io,deislabs/porter,\
+         alibaba/openyurt,openservicemesh"
     start_date: 2015-01-01T00:00:00Z
     join_date: 2015-01-01T00:00:00Z
     psql_db: contrib
