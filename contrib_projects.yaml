@@ -30,7 +30,7 @@ projects:
          rancher/k3s-upgrade,rancher/k3s-selinux,rancher/terraform-k3s-aws-cluster,\
          ibuildthecloud/k3s-root,ibuildthecloud/k3s-dev,ibuildthecloud/k3d,\
          spotify/backstage,wayfair-tremor,tremor-rs,metal3-io,deislabs/porter,\
-         alibaba/openyurt,openservicemesh,getporter,keylime"
+         alibaba/openyurt,openservicemesh,getporter,keylime,backstage"
     start_date: 2015-01-01T00:00:00Z
     join_date: 2015-01-01T00:00:00Z
     psql_db: contrib
