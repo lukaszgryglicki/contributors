@@ -32,7 +32,7 @@ projects:
          spotify/backstage,wayfair-tremor,tremor-rs,metal3-io,deislabs/porter,\
          alibaba/openyurt,openservicemesh,getporter,keylime,backstage,kyverno,\
          jetstack/cert-manager,jetstack-experimental/cert-manager,nirmata/kyverno,\
-         packethost/tinkerbell
+         packethost/tinkerbell,gitops-working-group"
     start_date: 2015-01-01T00:00:00Z
     join_date: 2015-01-01T00:00:00Z
     psql_db: contrib
