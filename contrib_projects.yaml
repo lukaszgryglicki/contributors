@@ -32,7 +32,8 @@ projects:
          spotify/backstage,wayfair-tremor,tremor-rs,metal3-io,deislabs/porter,\
          alibaba/openyurt,openservicemesh,getporter,keylime,backstage,kyverno,\
          jetstack/cert-manager,jetstack-experimental/cert-manager,nirmata/kyverno,\
-         packethost/tinkerbell,gitops-working-group"
+         packethost/tinkerbell,gitops-working-group, piraeusdatastore,indeedeng/k8dash,\
+         yahoo/athenz,indeedeng/k8dash-website,alauda/kube-ovn,curiefense,distribution"
     start_date: 2015-01-01T00:00:00Z
     join_date: 2015-01-01T00:00:00Z
     psql_db: contrib
