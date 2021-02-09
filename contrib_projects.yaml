@@ -12,7 +12,7 @@ projects:
          kubernetes-sidecars,kubernetes-tools,kubernetes-test,kubernetes-charts,\
          prometheus,opentracing,fluent,linkerd,grpc,coredns,containerd,rkt,\
          containernetworking,envoyproxy,jaegertracing,theupdateframework,\
-         cni-genie,keptn,kudobuilder,cloud-custodian,dexidp,litmuschaos,\
+         cni-genie,keptn,kudobuilder,cloud-custodian,dexidp,litmuschaos,openyurtio,\
          rook,cncf,crosscloudci,vitessio,nats-io,open-policy-agent,spiffe,kedacore,\
          servicemeshinterface,deislabs/smi-spec,deislabs/smi-sdk-go,argoproj,\
          deislabs/smi-metrics,deislabs/smi-adapter-istio,deislabs/smi-spec.io,\
