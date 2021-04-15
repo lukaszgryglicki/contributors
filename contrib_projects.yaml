@@ -34,7 +34,7 @@ projects:
          jetstack/cert-manager,jetstack-experimental/cert-manager,nirmata/kyverno,\
          packethost/tinkerbell,gitops-working-group, piraeusdatastore,indeedeng/k8dash,\
          yahoo/athenz,indeedeng/k8dash-website,alauda/kube-ovn,curiefense,distribution,\
-         ingraind,Comcast/kuberhealthy,AbsaOSS/k8gb,tricksterproxy"
+         foniod,Comcast/kuberhealthy,AbsaOSS/k8gb,tricksterproxy"
     start_date: 2015-01-01T00:00:00Z
     join_date: 2015-01-01T00:00:00Z
     psql_db: contrib
