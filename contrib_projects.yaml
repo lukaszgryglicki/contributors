@@ -35,7 +35,7 @@ projects:
          packethost/tinkerbell,gitops-working-group, piraeusdatastore,indeedeng/k8dash,\
          yahoo/athenz,indeedeng/k8dash-website,alauda/kube-ovn,curiefense,distribution,\
          foniod,Comcast/kuberhealthy,AbsaOSS/k8gb,tricksterproxy,emissary-ingress,\
-         datawire/ambassador"
+         datawire/ambassador,kuberhealthy"
     start_date: 2015-01-01T00:00:00Z
     join_date: 2015-01-01T00:00:00Z
     psql_db: contrib
