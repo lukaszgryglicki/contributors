@@ -32,11 +32,11 @@ projects:
          spotify/backstage,wayfair-tremor,tremor-rs,metal3-io,deislabs/porter,\
          alibaba/openyurt,openservicemesh,getporter,keylime,backstage,kyverno,\
          jetstack/cert-manager,jetstack-experimental/cert-manager,nirmata/kyverno,\
-         packethost/tinkerbell,gitops-working-group, piraeusdatastore,indeedeng/k8dash,\
-         yahoo/athenz,indeedeng/k8dash-website,alauda/kube-ovn,curiefense,distribution,\
-         foniod,Comcast/kuberhealthy,AbsaOSS/k8gb,tricksterproxy,emissary-ingress,\
-         backstage,kuberhealthy,WasmEdge,chaosblade-io,v6d-io,vmware-tanzu/antrea,\
-         fluid-cloudnative,submariner-io,argoproj-labs,trickstercache"
+         packethost/tinkerbell,gitops-working-group, piraeusdatastore,skooner-k8s,\
+         yahoo/athenz,kubeovn,curiefense,distribution,foniod,AbsaOSS/k8gb,\
+         tricksterproxy,emissary-ingress,backstage,kuberhealthy,WasmEdge,\
+         chaosblade-io,v6d-io,antrea-io,fluid-cloudnative,submariner-io,\
+         argoproj-labs,trickstercache"
     start_date: 2015-01-01T00:00:00Z
     join_date: 2015-01-01T00:00:00Z
     psql_db: contrib
