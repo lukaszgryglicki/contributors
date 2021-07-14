@@ -47,12 +47,12 @@ projects:
          layer5io/meshery-app-mesh,layer5io/meshery-maesh,layer5io/meshery-kuma,\
          layer5io/meshery-cpx,layer5io/meshery-nsx-sm,layer5io/meshery-adapter-template,\
          layer5io/meshery.io,layer5io/meshery-tmp,layer5io/service-mesh-performance-specification,\
-         layer5io/meshery-tanzu-sm,layer5io/meshery-operator,layer5io/meshery-osm,\
-         layer5io/meshery-adapter-kit,layer5io/service-mesh-performance,\
-         layer5io/meshery-nginx-sm,layer5io/advanced-istio-service-mesh-workshop,\
-         layer5io/meshery-adapter-library,layer5io/linkerd-service-mesh-workshop,\
-         layer5io/service-mesh-labs,layer5io/meshery-traefik-mesh,\
-         layer5io/mesheryctl-smi-conformance-action"
+         layer5io/meshery-tanzu-sm,layer5io/meshery-operator,layer5io/meshery-osm,waxosuit,\
+         layer5io/meshery-adapter-kit,layer5io/service-mesh-performance,deislabs/oras,\
+         layer5io/meshery-nginx-sm,layer5io/advanced-istio-service-mesh-workshop,wascaruntime,\
+         layer5io/meshery-adapter-library,layer5io/linkerd-service-mesh-workshop,wascc,\
+         layer5io/service-mesh-labs,layer5io/meshery-traefik-mesh,krator-rs,oras-project\
+         layer5io/mesheryctl-smi-conformance-action,deislabs/krustlet,shizhMSFT/oras,wasmCloud"
     start_date: 2015-01-01T00:00:00Z
     join_date: 2015-01-01T00:00:00Z
     psql_db: contrib
