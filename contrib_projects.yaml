@@ -35,7 +35,7 @@ projects:
          packethost/tinkerbell,gitops-working-group, piraeusdatastore,skooner-k8s,\
          yahoo/athenz,kubeovn,curiefense,distribution,foniod,AbsaOSS/k8gb,\
          tricksterproxy,emissary-ingress,backstage,kuberhealthy,WasmEdge,\
-         chaosblade-io,v6d-io,antrea-io,fluid-cloudnative,submariner-io,\
+         chaosblade-io,v6d-io,antrea-io,fluid-cloudnative,submariner-io,pixie-io,\
          argoproj-labs,trickstercache,kube-vip,alibaba/kubedl,pixie-labs/pixie,\
          pixie-labs/px-dev-website,pixie-labs/pxapi.go,pixie-labs/pixie-docs,\
          pixie-labs/pixie-demos,pixie-labs/pixie-docs,pixie-labs/px.dev,\
