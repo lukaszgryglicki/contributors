@@ -51,8 +51,10 @@ projects:
          layer5io/meshery-adapter-kit,layer5io/service-mesh-performance,deislabs/oras,\
          layer5io/meshery-nginx-sm,layer5io/advanced-istio-service-mesh-workshop,wascaruntime,\
          layer5io/meshery-adapter-library,layer5io/linkerd-service-mesh-workshop,wascc,\
-         layer5io/service-mesh-labs,layer5io/meshery-traefik-mesh,krator-rs,oras-project\
-         layer5io/mesheryctl-smi-conformance-action,deislabs/krustlet,shizhMSFT/oras,wasmCloud"
+         layer5io/service-mesh-labs,layer5io/meshery-traefik-mesh,krator-rs,oras-project,\
+         layer5io/mesheryctl-smi-conformance-action,deislabs/krustlet,shizhMSFT/oras,wasmCloud,
+         deislabs/akri,metallb,danderson/metallb,google/metallb,karmada-io,\
+         alibaba/inclavare-containers,superedge"
     start_date: 2015-01-01T00:00:00Z
     join_date: 2015-01-01T00:00:00Z
     psql_db: contrib
