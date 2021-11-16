@@ -54,7 +54,8 @@ projects:
          layer5io/service-mesh-labs,layer5io/meshery-traefik-mesh,krator-rs,oras-project,\
          layer5io/mesheryctl-smi-conformance-action,deislabs/krustlet,shizhMSFT/oras,wasmCloud,
          deislabs/akri,metallb,danderson/metallb,google/metallb,karmada-io,\
-         alibaba/inclavare-containers,superedge,cilium,noironetworks/cilium-net"
+         alibaba/inclavare-containers,superedge,cilium,noironetworks/cilium-net,dapr,\
+         kubesphere/openelb,open-cluster-management-io,Azure/vscode-kubernetes-tools"
     start_date: 2015-01-01T00:00:00Z
     join_date: 2015-01-01T00:00:00Z
     psql_db: contrib
