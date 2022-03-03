@@ -56,7 +56,7 @@ projects:
          deislabs/akri,metallb,danderson/metallb,google/metallb,karmada-io,\
          alibaba/inclavare-containers,superedge,cilium,noironetworks/cilium-net,dapr,\
          kubesphere/openelb,open-cluster-management-io,Azure/vscode-kubernetes-tools,\
-         nocalhost,kubearmor,k8up-io,kube-rs,devfile"
+         nocalhost,kubearmor,k8up-io,kube-rs,devfile,knative,knative-sandbox"
     start_date: 2015-01-01T00:00:00Z
     join_date: 2015-01-01T00:00:00Z
     psql_db: contrib
