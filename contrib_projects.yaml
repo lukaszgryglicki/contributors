@@ -39,7 +39,7 @@ projects:
          argoproj-labs,trickstercache,kube-vip,alibaba/kubedl,pixie-labs/pixie,\
          pixie-labs/px-dev-website,pixie-labs/pxapi.go,pixie-labs/pixie-docs,\
          pixie-labs/pixie-demos,pixie-labs/pixie-docs,pixie-labs/px.dev,kubedl-io,\
-         pixie-labs/pixie-blog,pixie-labs/grafana-plugin,oam-dev/kubevela,\
+         pixie-labs/pixie-blog,pixie-labs/grafana-plugin,oam-dev/kubevela,cubefs,\
          oam-dev/kubevela.io,oam-dev/kubevela-core-api,oam-dev/velacp,service-mesh-performance,\
          oam-dev/kubevela-tutorials,layer5io/meshery,layer5io/service-mesh-benchmark-spec,\
          layer5io/meshery-istio,layer5io/meshery-linkerd,layer5io/meshery-octarine,\
