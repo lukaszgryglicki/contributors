@@ -11,7 +11,7 @@ projects:
          kubernetes-extensions,kubernetes-federation,kubernetes-security,\
          kubernetes-sidecars,kubernetes-tools,kubernetes-test,kubernetes-charts,\
          prometheus,opentracing,fluent,linkerd,grpc,coredns,containerd,rkt,\
-         containernetworking,envoyproxy,jaegertracing,theupdateframework,\
+         containernetworking,envoyproxy,jaegertracing,theupdateframework,crossplaneio,\
          cni-genie,keptn,kudobuilder,cloud-custodian,dexidp,litmuschaos,openyurtio,\
          rook,cncf,crosscloudci,vitessio,nats-io,open-policy-agent,spiffe,kedacore,\
          servicemeshinterface,deislabs/smi-spec,deislabs/smi-sdk-go,argoproj,\
@@ -53,7 +53,7 @@ projects:
          layer5io/meshery-adapter-library,layer5io/linkerd-service-mesh-workshop,wascc,\
          layer5io/service-mesh-labs,layer5io/meshery-traefik-mesh,krator-rs,oras-project,\
          layer5io/mesheryctl-smi-conformance-action,deislabs/krustlet,shizhMSFT/oras,wasmCloud,
-         deislabs/akri,metallb,danderson/metallb,google/metallb,karmada-io,\
+         deislabs/akri,metallb,danderson/metallb,google/metallb,karmada-io,crossplane-contrib,\
          alibaba/inclavare-containers,superedge,cilium,noironetworks/cilium-net,dapr,\
          kubesphere/openelb,open-cluster-management-io,Azure/vscode-kubernetes-tools,\
          nocalhost,kubearmor,k8up-io,kube-rs,devfile,knative,knative-sandbox,fabedge,\
