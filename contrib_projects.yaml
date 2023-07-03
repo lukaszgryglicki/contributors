@@ -67,7 +67,9 @@ projects:
          vmware-tanzu/carvel-kwt,vmware-tanzu/carvel-secretgen-controller,inspektor-gadget,\
          kinvolk/inspektor-gadget,clusternet,keycloak,sealerio,mozilla/sops,mozilla/sotp,\
          mozilla-services/sops,headlamp-k8s,kinvolk/headlamp,slimtoolkit,docker-slim,\
-         cloudimmunity/docker-slim,sustainable-computing-io,pipe-cd"
+         cloudimmunity/docker-slim,sustainable-computing-io,pipe-cd,Azure/eraser,xline-kv,\
+         datenlord/Xline,hwameistor,GoogleContainerTools/kpt,microcks,kubeclipper,\
+         kubeclipper-labs,kubeworkflow,google/kubeworkflow"
     start_date: 2015-01-01T00:00:00Z
     join_date: 2015-01-01T00:00:00Z
     psql_db: contrib
