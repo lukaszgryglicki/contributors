@@ -69,7 +69,9 @@ projects:
          mozilla-services/sops,headlamp-k8s,kinvolk/headlamp,slimtoolkit,docker-slim,\
          cloudimmunity/docker-slim,sustainable-computing-io,pipe-cd,Azure/eraser,xline-kv,\
          datenlord/Xline,hwameistor,GoogleContainerTools/kpt,microcks,kubeclipper,\
-         kubeclipper-labs,kubeworkflow,google/kubeworkflow"
+         kubeclipper-labs,kubeworkflow,google/kubeworkflow,kubeclipper-labs,project-copacetic,\
+         kube-logging,kanisterio,kcp-dev,kcl-lang,banzaicloud/logging-operator,KusionStack/kcl,\
+         KusionStack/KCLVM"
     start_date: 2015-01-01T00:00:00Z
     join_date: 2015-01-01T00:00:00Z
     psql_db: contrib
