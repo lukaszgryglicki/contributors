@@ -71,7 +71,10 @@ projects:
          datenlord/Xline,hwameistor,GoogleContainerTools/kpt,microcks,kubeclipper,\
          kubeclipper-labs,kubeworkflow,google/kubeworkflow,kubeclipper-labs,project-copacetic,\
          kube-logging,kanisterio,kcp-dev,kcl-lang,banzaicloud/logging-operator,KusionStack/kcl,\
-         KusionStack/KCLVM"
+         KusionStack/KCLVM,kube-burner,kuasar-io,redchat-chaos,kubestellar,megaease,\
+         spidernet-io,k8sgpt-ai,cloud-bulldozer/kube-burner,cloud-bulldozer/rosa-burner,\
+         chaos-kubox,cloud-bulldozer/krkn,cloud-bulldozer/kraken,openshift-scale/kraken,\
+         KubeStellar,kcp-dev/edge-mc"
     start_date: 2015-01-01T00:00:00Z
     join_date: 2015-01-01T00:00:00Z
     psql_db: contrib
