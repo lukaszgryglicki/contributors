@@ -75,7 +75,10 @@ projects:
          spidernet-io,k8sgpt-ai,cloud-bulldozer/kube-burner,cloud-bulldozer/rosa-burner,\
          chaos-kubox,cloud-bulldozer/krkn,cloud-bulldozer/kraken,openshift-scale/kraken,\
          KubeStellar,kcp-dev/edge-mc,kubeslice,connectrpc,bufbuild/connect-go,bufbuild/rerpc,\
-         kairos-io,c3os-io,mudler/c3os,kubean-io,koordinator-sh,radius-project"
+         kairos-io,c3os-io,mudler/c3os,kubean-io,koordinator-sh,radius-project,bank-vaults,\
+         banzaicloud/bank-vaults,banzaicloud/vault-dogsbody,runatlantis,atlantisnorth/atlantis,\
+         project-stacker,anuvu/stacker,oscal-compass,IBM/compliance-trestle,Kuadrant,\
+         3scale-labs/authorino,openGemini,score-spec,bpfman,bpfd-dev,redhat-et/bpfd"
     start_date: 2015-01-01T00:00:00Z
     join_date: 2015-01-01T00:00:00Z
     psql_db: contrib
