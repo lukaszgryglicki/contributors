@@ -78,7 +78,10 @@ projects:
          kairos-io,c3os-io,mudler/c3os,kubean-io,koordinator-sh,radius-project,bank-vaults,\
          banzaicloud/bank-vaults,banzaicloud/vault-dogsbody,runatlantis,atlantisnorth/atlantis,\
          project-stacker,anuvu/stacker,oscal-compass,IBM/compliance-trestle,Kuadrant,\
-         3scale-labs/authorino,openGemini,score-spec,bpfman,bpfd-dev,redhat-et/bpfd"
+         3scale-labs/authorino,openGemini,score-spec,bpfman,bpfd-dev,redhat-et/bpfd,loxilb-io,\
+         lyft/cartography,perses,ratify-project,Project-HAMi,shipwright-io,deislabs/ratify,\
+         deislabs/ratify-web,deislabs/ratify-action,redhat-developer/build,redhat-developer/buildv2,\
+         redhat-developer/buildv2-operator"
     start_date: 2015-01-01T00:00:00Z
     join_date: 2015-01-01T00:00:00Z
     psql_db: contrib
