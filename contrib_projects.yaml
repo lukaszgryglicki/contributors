@@ -81,7 +81,8 @@ projects:
          3scale-labs/authorino,openGemini,score-spec,bpfman,bpfd-dev,redhat-et/bpfd,loxilb-io,\
          lyft/cartography,perses,ratify-project,Project-HAMi,shipwright-io,deislabs/ratify,\
          deislabs/ratify-web,deislabs/ratify-action,redhat-developer/build,redhat-developer/buildv2,\
-         redhat-developer/buildv2-operator"
+         redhat-developer/buildv2-operator,flatcar,flatcar-linux,kinvolk/Flatcar,\
+         kinvolk/flatcar-scripts,kinvolk/mantle"
     start_date: 2015-01-01T00:00:00Z
     join_date: 2015-01-01T00:00:00Z
     psql_db: contrib
