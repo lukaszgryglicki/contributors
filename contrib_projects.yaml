@@ -84,7 +84,22 @@ projects:
          redhat-developer/buildv2-operator,flatcar,flatcar-linux,kinvolk/Flatcar,\
          kinvolk/flatcar-scripts,kinvolk/mantle,youki-dev,containers/youki,utam0k/youki,Azure/kaito,\
          kaito-project,openebs,sermant-io,huaweicloud/Sermant,huaweicloud/java-mesh,\
-         huaweicloud/JavaMesh,kmesh-net,ovn-org,openvswitch/ovn-kubernetes"
+         huaweicloud/JavaMesh,kmesh-net,ovn-org,openvswitch/ovn-kubernetes,prometheus-community,\
+         tratteria,fermyon/spin,fermyon/spin-python-sdk,fermyon/spin-js-sdk,spinkube,\
+         fermyon/spin-rust-sdk,fermyon/spin-dotnet-sdk,fermyon/spin-nim-sdk,k0sproject,\
+         fermyon/spin-plugins,fermyon/spin-test,fermyon/platform-plugin,AxaFrance/SlimFaas,\
+         fermyon/spin-trigger-command,fermyon/spin-trigger-sqs,fermyon/spin-trigger-cron,\
+         ktock/container2wasm,stateful/runme,stateful/runme.dev,stateful/runmejs,\
+         stateful/runme-web-extension,stateful/runme-action,stateful/docs.runme.dev,\
+         stateful/runme-action-examples,stateful/mkdocs-runme-plugin,stateful/Runme-CDEs,\
+         stateful/runme-terramate-aws,stateful/terramate-runme-example,cloudnative-pg,\
+         stateful/runme-terramate-example,stateful/runme-foyle-ai,Azure/Fleet-PRSE,\
+         Azure/fleet-networking,Azure/fleet,Azure/azure-rest-api-specs-fleet,podman-desktop,\
+         containers/podman,containers/buildah,containers/skopeo,containers/netavark,\
+         containers/aardvark-dns,containers/image,containers/storage,containers/common,\
+         containers/conmon,containers/podman-py,containers/bootc,containers/composefs,\
+         drasi-project,containers/podman-desktop,containers/desktop,projectatomic/skopeo,\
+         giuseppe/composefs"
     start_date: 2015-01-01T00:00:00Z
     join_date: 2015-01-01T00:00:00Z
     psql_db: contrib
