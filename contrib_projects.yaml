@@ -108,8 +108,8 @@ projects:
          aenix-io/talos-bootstrap,aeniz-io/cozystack,aenix-io/kubernetes-in-kubernetes,\
          aenix-io/kubefarm,aenix-io/cozystack-website,aenix-io/cozy-proxy,\
          aenix-io/cozystack-telemetry-server,jozu-ai/kitops,aenix-io/cozystack-gitops-example,\
-         jozu-ai/gh-kit-setup,jozu-ai/daggerverse,jozu-ai/pykitops,hyperlight-dev,\
-         kgateway-dev,k8sgateway,solo-io/gloo"
+         jozu-ai/gh-kit-setup,jozu-ai/daggerverse,jozu-ai/pykitops,hyperlight-dev,opentofu,\
+         kgateway-dev,k8sgateway,solo-io/gloo,opentffoundation,openterraform"
     start_date: 2015-01-01T00:00:00Z
     join_date: 2015-01-01T00:00:00Z
     psql_db: contrib
