@@ -71,7 +71,7 @@ projects:
          datenlord/Xline,hwameistor,GoogleContainerTools/kpt,microcks,kubeclipper,\
          kubeclipper-labs,kubeworkflow,google/kubeworkflow,kubeclipper-labs,project-copacetic,\
          kube-logging,kanisterio,kcp-dev,kcl-lang,banzaicloud/logging-operator,KusionStack,\
-         kube-burner,kuasar-io,redchat-chaos,kubestellar,megaease,\
+         kube-burner,kuasar-io,redchat-chaos,kubestellar,megaease,urunc-dev,nubificus/urunc,\
          spidernet-io,k8sgpt-ai,cloud-bulldozer/kube-burner,cloud-bulldozer/rosa-burner,\
          chaos-kubox,cloud-bulldozer/krkn,cloud-bulldozer/kraken,openshift-scale/kraken,\
          KubeStellar,kcp-dev/edge-mc,kubeslice,connectrpc,bufbuild/connect-go,bufbuild/rerpc,\
@@ -99,14 +99,14 @@ projects:
          containers/aardvark-dns,containers/image,containers/storage,containers/common,\
          containers/conmon,containers/podman-py,containers/bootc,containers/composefs,\
          drasi-project,containers/podman-desktop,containers/desktop,projectatomic/skopeo,\
-         giuseppe/composefs, interTwin-eu/interLink,interTwin-eu/vk-test-set,\
-         interTwin-eu/interlink-jhub,interTwin-eu/interlink-slurm-plugin,\
+         giuseppe/composefs, interTwin-eu/interLink,interTwin-eu/vk-test-set,kagent-dev,\
+         interTwin-eu/interlink-jhub,interTwin-eu/interlink-slurm-plugin,uber/cadence,\
          interTwin-eu/interlink-docker-plugin,interTwin-eu/interlink-helm-chart,\
          interTwin-eu/interlink-monitoring-stack,interTwin-eu/interlink-htcondor-plugin,\
          interTwin-eu/interlink-kueue-plugin,interTwin-eu/interlink-arc-plugin,\
          interTwin-eu/interlink-unicore-plugin,aenix-io/etcd-operator,aenix-io/talm,\
          aenix-io/talos-bootstrap,aeniz-io/cozystack,aenix-io/kubernetes-in-kubernetes,\
-         aenix-io/kubefarm,aenix-io/cozystack-website,aenix-io/cozy-proxy,\
+         aenix-io/kubefarm,aenix-io/cozystack-website,aenix-io/cozy-proxy,cadence-workflow,\
          aenix-io/cozystack-telemetry-server,jozu-ai/kitops,aenix-io/cozystack-gitops-example,\
          jozu-ai/gh-kit-setup,jozu-ai/daggerverse,jozu-ai/pykitops,hyperlight-dev,opentofu,\
          kgateway-dev,k8sgateway,solo-io/gloo,opentffoundation,openterraform"
