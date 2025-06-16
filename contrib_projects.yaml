@@ -109,7 +109,7 @@ projects:
          aenix-io/kubefarm,aenix-io/cozystack-website,aenix-io/cozy-proxy,cadence-workflow,\
          aenix-io/cozystack-telemetry-server,jozu-ai/kitops,aenix-io/cozystack-gitops-example,\
          jozu-ai/gh-kit-setup,jozu-ai/daggerverse,jozu-ai/pykitops,hyperlight-dev,opentofu,\
-         kgateway-dev,k8sgateway,solo-io/gloo,opentffoundation,openterraform"
+         kgateway-dev,k8sgateway,solo-io/gloo,opentffoundation,openterraform,xregistry,CloudNativeAI"
     start_date: 2015-01-01T00:00:00Z
     join_date: 2015-01-01T00:00:00Z
     psql_db: contrib
