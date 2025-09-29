@@ -84,7 +84,7 @@ projects:
          redhat-developer/buildv2-operator,flatcar,flatcar-linux,kinvolk/Flatcar,\
          kinvolk/flatcar-scripts,kinvolk/mantle,youki-dev,containers/youki,utam0k/youki,Azure/kaito,\
          kaito-project,openebs,sermant-io,huaweicloud/Sermant,huaweicloud/java-mesh,\
-         huaweicloud/JavaMesh,kmesh-net,ovn-org,openvswitch/ovn-kubernetes"
+         huaweicloud/JavaMesh,kmesh-net,ovn-org,openvswitch/ovn-kubernetes,kubeflow,kserve"
     start_date: 2015-01-01T00:00:00Z
     join_date: 2015-01-01T00:00:00Z
     psql_db: contrib
