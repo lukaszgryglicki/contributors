@@ -33,7 +33,7 @@ projects:
          alibaba/openyurt,openservicemesh,getporter,keylime,backstage,kyverno,\
          jetstack/cert-manager,jetstack-experimental/cert-manager,nirmata/kyverno,\
          packethost/tinkerbell,gitops-working-group, piraeusdatastore,skooner-k8s,\
-         yahoo/athenz,kubeovn,curiefense,distribution,foniod,AbsaOSS/k8gb,\
+         yahoo/athenz,kubeovn,curiefense,distribution,foniod,AbsaOSS/k8gb,pusher/oauth2_proxy,\
          tricksterproxy,emissary-ingress,backstage,kuberhealthy,WasmEdge,kubevela,\
          chaosblade-io,v6d-io,antrea-io,fluid-cloudnative,submariner-io,pixie-io,\
          argoproj-labs,trickstercache,kube-vip,alibaba/kubedl,pixie-labs/pixie,\
@@ -81,7 +81,7 @@ projects:
          3scale-labs/authorino,openGemini,score-spec,bpfman,bpfd-dev,redhat-et/bpfd,loxilb-io,\
          lyft/cartography,perses,ratify-project,Project-HAMi,shipwright-io,deislabs/ratify,\
          deislabs/ratify-web,deislabs/ratify-action,redhat-developer/build,redhat-developer/buildv2,\
-         redhat-developer/buildv2-operator,flatcar,flatcar-linux,kinvolk/Flatcar,\
+         redhat-developer/buildv2-operator,flatcar,flatcar-linux,kinvolk/Flatcar,oauth2-proxy,\
          kinvolk/flatcar-scripts,kinvolk/mantle,youki-dev,containers/youki,utam0k/youki,Azure/kaito,\
          kaito-project,openebs,sermant-io,huaweicloud/Sermant,huaweicloud/java-mesh,\
          huaweicloud/JavaMesh,kmesh-net,ovn-org,openvswitch/ovn-kubernetes,prometheus-community,\
