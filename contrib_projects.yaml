@@ -111,7 +111,8 @@ projects:
          jozu-ai/gh-kit-setup,jozu-ai/daggerverse,jozu-ai/pykitops,hyperlight-dev,opentofu,\
          kgateway-dev,k8sgateway,solo-io/gloo,opentffoundation,openterraform,xregistry,\
          oxia-db,streamnative/oxia,cedar-policy,Azure/dalec,robusta-dev/holmesgpt,\
-         robusta-dev/homebrew-holmesgpt,robusta-dev/holmesgpt-community-toolsets,CloudNativeAI"
+         robusta-dev/homebrew-holmesgpt,robusta-dev/holmesgpt-community-toolsets,CloudNativeAI,
+         NVIDIA/KAI-Scheduler"
     start_date: 2015-01-01T00:00:00Z
     join_date: 2015-01-01T00:00:00Z
     psql_db: contrib
