@@ -112,7 +112,9 @@ projects:
          kgateway-dev,k8sgateway,solo-io/gloo,opentffoundation,openterraform,xregistry,\
          oxia-db,streamnative/oxia,cedar-policy,Azure/dalec,robusta-dev/holmesgpt,\
          robusta-dev/homebrew-holmesgpt,robusta-dev/holmesgpt-community-toolsets,CloudNativeAI,
-         NVIDIA/KAI-Scheduler"
+         NVIDIA/KAI-Scheduler,agones-dev,googleforgames/space-agon,googleforgames/global-multiplayer-demo,\
+         GoogleCloudPlatform/agones,googleforgames/agones,googleforgames/agones-site,\
+         googleforgames/agones-community"
     start_date: 2015-01-01T00:00:00Z
     join_date: 2015-01-01T00:00:00Z
     psql_db: contrib
