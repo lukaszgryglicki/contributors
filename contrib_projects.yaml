@@ -118,7 +118,7 @@ projects:
          vmware-tanzu/velero-plugin-example,vmware-tanzu/velero-plugin-for-aws,\
          vmware-tanzu/velero-plugin-for-gcp,vmware-tanzu/velero-plugin-for-microsoft-azure,\
          vmware-tanzu/velero-plugin-for-vsphere,vmware-tanzu/velero-plugin-for-csi,\
-         vmware-tanzu/velero-csi-plugin,openeverest,nmstate"
+         vmware-tanzu/velero-csi-plugin,openeverest,nmstate,higress-group,alibaba/higress"
     start_date: 2015-01-01T00:00:00Z
     join_date: 2015-01-01T00:00:00Z
     psql_db: contrib
