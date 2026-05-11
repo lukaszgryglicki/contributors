@@ -114,7 +114,7 @@ projects:
          robusta-dev/homebrew-holmesgpt,robusta-dev/holmesgpt-community-toolsets,CloudNativeAI,
          NVIDIA/KAI-Scheduler,agones-dev,googleforgames/space-agon,googleforgames/global-multiplayer-demo,\
          GoogleCloudPlatform/agones,googleforgames/agones,googleforgames/agones-site,\
-         googleforgames/agones-community,velero-io,vmware-tanzu/velero,\
+         googleforgames/agones-community,velero-io,vmware-tanzu/velero,llm-d,\
          vmware-tanzu/velero-plugin-example,vmware-tanzu/velero-plugin-for-aws,\
          vmware-tanzu/velero-plugin-for-gcp,vmware-tanzu/velero-plugin-for-microsoft-azure,\
          vmware-tanzu/velero-plugin-for-vsphere,vmware-tanzu/velero-plugin-for-csi,\
