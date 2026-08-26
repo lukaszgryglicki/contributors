@@ -21,6 +21,7 @@ projects:
          virtual-kubelet,kubeedge,brigadecore,cri-o,networkservicemesh,openebs,\
          open-telemetry,thanos-io,fluxcd,in-toto,strimzi,kubevirt,longhorn,chubaofs,\
          Kong/kumacut,Kong/docker-kuma,chaos-mesh,serverlessworkflow,awslabs/cdk8s,\
+         open-workflow-specification,\
          volcano-sh,parallaxsecond,bfenetworks,crossplane,artifacthub,cert-manager,\
          projectcontour,heptio/contour,operator-framework,schemahero,openkruise,\
          OpenStack-mobile,openstack,openstack-ansible,kata-containers,kruiseio,\
@@ -96,6 +97,7 @@ projects:
          stateful/runme-terramate-example,stateful/runme-foyle-ai,Azure/Fleet-PRSE,\
          Azure/fleet-networking,Azure/fleet,Azure/azure-rest-api-specs-fleet,podman-desktop,\
          containers/podman,containers/buildah,containers/skopeo,containers/netavark,\
+         podman-container-tools/podman,podman-container-tools/buildah,podman-container-tools/skopeo,\
          containers/aardvark-dns,containers/image,containers/storage,containers/common,\
          containers/conmon,containers/podman-py,containers/bootc,containers/composefs,\
          drasi-project,containers/podman-desktop,containers/desktop,projectatomic/skopeo,\
