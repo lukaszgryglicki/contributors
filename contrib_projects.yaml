@@ -21,7 +21,7 @@ projects:
          virtual-kubelet,kubeedge,brigadecore,cri-o,networkservicemesh,openebs,\
          open-telemetry,thanos-io,fluxcd,in-toto,strimzi,kubevirt,longhorn,chubaofs,\
          Kong/kumacut,Kong/docker-kuma,chaos-mesh,serverlessworkflow,awslabs/cdk8s,\
-         open-workflow-specification,\
+         open-workflow-specification,sdcio,ray-project,\
          volcano-sh,parallaxsecond,bfenetworks,crossplane,artifacthub,cert-manager,\
          projectcontour,heptio/contour,operator-framework,schemahero,openkruise,\
          OpenStack-mobile,openstack,openstack-ansible,kata-containers,kruiseio,\
