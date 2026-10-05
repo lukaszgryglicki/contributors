@@ -120,7 +120,9 @@ projects:
          vmware-tanzu/velero-plugin-example,vmware-tanzu/velero-plugin-for-aws,\
          vmware-tanzu/velero-plugin-for-gcp,vmware-tanzu/velero-plugin-for-microsoft-azure,\
          vmware-tanzu/velero-plugin-for-vsphere,vmware-tanzu/velero-plugin-for-csi,CurvineIO,\
-         vmware-tanzu/velero-csi-plugin,openeverest,nmstate,higress-group,alibaba/higress,kube-bind"
+         vmware-tanzu/velero-csi-plugin,openeverest,nmstate,higress-group,alibaba/higress,kube-bind,\
+         Siemens-Healthineers/K2s,NVIDIA/OpenShell,NVIDIA/OpenShell-Research,\
+         NVIDIA/OpenShell-Community,hivecommons"
     start_date: 2015-01-01T00:00:00Z
     join_date: 2015-01-01T00:00:00Z
     psql_db: contrib
