@@ -122,7 +122,8 @@ projects:
          vmware-tanzu/velero-plugin-for-vsphere,vmware-tanzu/velero-plugin-for-csi,CurvineIO,\
          vmware-tanzu/velero-csi-plugin,openeverest,nmstate,higress-group,alibaba/higress,kube-bind,\
          Siemens-Healthineers/K2s,NVIDIA/OpenShell,NVIDIA/OpenShell-Research,\
-         NVIDIA/OpenShell-Community,hivecommons,\
+         NVIDIA/OpenShell-Community,hivecommons,praxis-proxy,shaneutt/praxis,ai-runway,\
+         kaito-project/airunway,kaito-project/kubeairunway,Azure/kuberunway,sozercan/kube-foundry,\
          krustlet/oci-distribution,notaryproject/artwork,tinkerbell/crossplane-provider-tinkerbell,\
          tomkerkhove/sample-dotnet-queue-worker,tomkerkhove/sample-dotnet-queue-worker-servicebus-queue,\
          containers/podman-desktop-catalog,containers/podman-desktop-e2e,\
