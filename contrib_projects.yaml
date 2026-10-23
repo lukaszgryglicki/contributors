@@ -127,7 +127,7 @@ projects:
          krustlet/oci-distribution,notaryproject/artwork,tinkerbell/crossplane-provider-tinkerbell,\
          tomkerkhove/sample-dotnet-queue-worker,tomkerkhove/sample-dotnet-queue-worker-servicebus-queue,\
          containers/podman-desktop-catalog,containers/podman-desktop-e2e,\
-         containers/podman-desktop-extension-bootc,\
+         containers/podman-desktop-extension-bootc,agent-substrate,gke-labs/open-rl,\
          containers/podman-desktop-extension-kubernetes-dashboard,\
          containers/podman-desktop-extension-layers-explorer,\
          containers/podman-desktop-extension-minikube,\
